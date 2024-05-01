@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMR24 Carbon Footprint Survey</title>
+    <script type="module" src="https://surveys-renderer-frontend.vercel.app/assets/embeddedSurvey.js"></script>
+    <script>
+        // Optional: Provide data about the person completing the survey
+        window.Zenloop_Survey_Recipient = {
+            // You can add properties here like email, name, etc., depending on what Zenloop accepts
+        };
+    </script>
+</head>
+<body>
+    <!-- Using the webcomponent as instructed -->
+    <zenloop-embedded-survey orgid="1" surveyid="87"></zenloop-embedded-survey>
+
+    <!-- Footer to show 'Powered by zenloop' -->
+    <footer style="text-align:center; margin-top: 20px;">
+        Powered by <strong>zenloop</strong>
+    </footer>
+</body>
+</html>
